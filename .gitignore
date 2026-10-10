@@ -1,0 +1,35 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Python virtual environments
+.venv/
+venv/
+env/
+**/.venv/
+**/venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Node dependencies and builds
+node_modules/
+.next/
+dist/
+build/
+
+# Local databases and backups
+*.bak
+*.mdf
+*.ldf
+
+# OS and editor files
+.DS_Store
+.vscode/
